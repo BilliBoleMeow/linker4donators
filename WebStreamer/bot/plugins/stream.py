@@ -39,8 +39,8 @@ async def media_receive_handler(_, m: Message):
         # dkabl
         rm = None
     await m.reply_text(
-        text="<code>{}</code>\n\n(<a href='{}'>Download Link</a>)".format(
-            Copy The Download Link From Below Or Tap On The Download Now Button, short_link
+        text="<code>Copy The Download Link From Below Or Tap On The Download Now Button</code>\n\n(<a href='{}'>Download Link</a>)".format(
+            short_link
         ),
         quote=True,
         parse_mode=ParseMode.HTML,
